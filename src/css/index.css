@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'AmericanTypewriter'; 
+  src: url('../assets/fonts/American Typewriter Regular.ttf') format('truetype'); 
+  font-weight: 400; 
+  font-style: normal; 
+}
+
+:root {
+  font-family: 'AmericanTypewriter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: white;
+  background-color: black;
+}
