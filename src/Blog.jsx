@@ -1,10 +1,10 @@
 import Navbar from './Navbar.jsx'
 
-export default function About() {
+export default function Blog() {
   return (
   <>
       <Navbar />
-      <p>From About</p>
+      <p>Hallo von Blog</p>
   </>
   )
 }
