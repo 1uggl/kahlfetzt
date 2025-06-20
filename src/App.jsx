@@ -5,7 +5,9 @@ export default function App() {
   return (
     <>
       <Navbar/>
-      <h1>HALLO</h1>
+      <div className="koerper">
+      <h1>Willkommen bei Kahl fetzt. e.V.!</h1>
+      </div>
     </>
   )
 }

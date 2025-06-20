@@ -2,3 +2,7 @@ body {
   padding: 0 5px;
   margin: 0;
 }
+
+.koerper {
+  border: 1px solid red;
+}

@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid white;
+  flex-wrap: wrap;
 }
 
 .Navbar img {
@@ -20,16 +21,31 @@
   font-size: 24px;
 }
 
-.active {
-  border-bottom: 1px solid white;
+.social-media-contacts {
+  display: flex;
+  list-style-type: none;
+  gap: 2em;
 }
 
-.Navbar ul a:hover {
-  color: black;
+.social-media-contacts img:hover {
+  opacity: 0.5;
+  transition: all .2s;
+}
+
+.social-media-contacts img {
+  width: 40px;
+  height: 40px;
   background-color: white;
+  border-radius: 50%;
 }
 
-.Navbar ul {
+.active {
+  opacity: .5;
+}
+
+
+.navigation-links {
+  transition: all .2s;
   list-style-type: none;
   display: flex;
   gap: 2em;
