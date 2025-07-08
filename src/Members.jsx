@@ -4,7 +4,7 @@ export default function Members() {
   return (
   <>
       <Navbar />
-      <p>Hallo von Members</p>
+      <p>Discord: </p>
   </>
   )
 }
