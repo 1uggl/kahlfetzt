@@ -20,11 +20,6 @@ export default function Navbar() {
           className={({ isActive }) => (isActive ? 'active' : null)}
         >
         Blog</NavLink></li>
-        <li><NavLink
-          to='/members'
-          className={({ isActive }) => (isActive ? 'active' : null)}
-        >
-        Mitgliederbereich</NavLink></li>
       </ul>
       <ul className="social-media-contacts">
       <li><a target="_blank" href="https://www.instagram.com/kahl_fetzt/"><img src={instagram} alt="instagram" /></a></li>

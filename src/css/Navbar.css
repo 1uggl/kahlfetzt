@@ -7,7 +7,7 @@
 }
 
 .Navbar img {
-  height: 120px;
+  height: 100px;
   margin: 0;
   padding: 0;
 }
@@ -42,7 +42,6 @@
 .active {
   opacity: .5;
 }
-
 
 .navigation-links {
   transition: all .2s;
