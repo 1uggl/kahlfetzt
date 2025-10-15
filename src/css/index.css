@@ -1,8 +1,8 @@
 @font-face {
-  font-family: 'AmericanTypewriter'; 
-  src: url('../assets/fonts/American Typewriter Regular.ttf') format('truetype'); 
-  font-weight: 400; 
-  font-style: normal; 
+  font-family: 'AmericanTypewriter';
+  src: url('../assets/fonts/American Typewriter Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
 }
 
 :root {
@@ -10,13 +10,152 @@
   font-weight: 400;
 }
 
-
 html, body {
   margin: 0;
   padding: 0;
+  width: 100%;
+  overflow-x: hidden; /* Verhindert horizontalen Scrollbalken */
+  color: white;
+  background-color: black;
+  box-sizing: border-box;
 }
 
 body {
-  color: white;
-  background-color: black;
+  padding: 0; /* Entfernt das 5px-Padding, um Overflow zu vermeiden */
+}
+
+.koerper {
+  max-width: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto; /* Zentriert den Inhalt */
+  padding: 0 10px; /* Begrenztes Padding für Lesbarkeit */
+}
+
+.logo {
+  height: 120px;
+  max-width: 100%; /* Verhindert, dass das Logo den Viewport sprengt */
+  object-fit: contain;
+  display: block; /* Stellt sicher, dass das Bild keine unerwarteten Margins hat */
+}
+
+.social-media-contacts {
+  display: flex;
+  flex-direction: row;
+  gap: 20px; /* Reduzierter Gap für bessere Anpassung */
+  list-style-type: none;
+  max-width: 100%;
+  flex-wrap: wrap; /* Erlaubt Umbruch auf kleinen Bildschirmen */
+  justify-content: center; /* Zentriert die Icons */
+  align-items: center; /* Vertikale Zentrierung */
+  padding: 0; /* Entfernt unnötige Paddings */
+  margin: 0 auto; /* Zentriert die Liste */
+}
+
+.social-media-contacts img {
+  height: 40px;
+  width: 40px; /* Feste Breite für Konsistenz */
+  border-radius: 50%;
+  object-fit: contain;
+  background-color: white;
+}
+
+hr {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  border-color: white; /* Für Sichtbarkeit auf schwarzem Hintergrund */
+}
+
+/* Responsive styles für Mobilgeräte */
+@media screen and (max-width: 768px) {
+  .koerper {
+    padding: 0 8px; /* Reduziertes Padding für kleinere Bildschirme */
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .logo {
+    height: 120px;
+    max-width: 100%;
+  }
+
+  .social-media-contacts {
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .social-media-contacts img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .koerper h1 {
+    font-size: 24px;
+  }
+
+  .koerper h2 {
+    font-size: 20px;
+  }
+
+  .koerper p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  /* Entfernte .navigation-links, da sie nicht verwendet wird, aber für spätere Nutzung vorbereitet */
+  .navigation-links {
+    flex-direction: column;
+    gap: 1em;
+    width: 100%;
+    padding: 0;
+    margin: 10px 0;
+  }
+
+  .navigation-links li {
+    width: 100%;
+  }
+
+  ul a {
+    font-size: 18px;
+    padding: 0.5em;
+    display: block;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .koerper {
+    padding: 0 5px;
+  }
+
+  .logo {
+    height: 100px;
+    max-width: 100%;
+  }
+
+  .social-media-contacts {
+    gap: 10px;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .social-media-contacts img {
+    width: 28px;
+    height: 28px;
+  }
+
+  .koerper h1 {
+    font-size: 20px;
+  }
+
+  .koerper h2 {
+    font-size: 18px;
+  }
+
+  .koerper p {
+    font-size: 14px;
+  }
 }
