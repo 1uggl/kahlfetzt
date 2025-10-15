@@ -16,9 +16,9 @@ export default function App() {
         <h2>Warum Kahl fetzt.?</h2>
         <p><b>Fetzen</b> steht für Schwung, Spaß und Gemeinschaft! Wir machen Kahl lebendiger, indem wir Vereine vernetzen und gemeinsam Traditionen pflegen. Ob beim Stadtradeln, beim Weltspieletag oder unserer internen "Get-Togethers" - bei uns ist immer etwas los.</p>
         <h2>Ihr braucht Hilfe?</h2>
-        <p>... dann schreibt uns einfach per E-Mail. Am besten packt ihr in eure Anfrage bereits das Datum, den Ort der Veranstaltung, wie viele Leute ihr benötigt und um welche Art von Hilfe es sich handelt (z.B. Bierbänkeaufbau, Zapfen, Bedienen, etc.)</p>
+        <p>... dann schreibt uns einfach per E-Mail. Am besten packt ihr in eure Anfrage bereits das Datum, den Ort der Veranstaltung, wie viele Leute ihr benötigt und um welche Art von Hilfe es sich handelt (z.B. Bierbänkeaufbau, Zapfen, Bedienen etc.)</p>
         <h2>Mitmachen?</h2>
-        <p>Lust, Teil unseres Teams zu werden? Egal, ob du bei der nächsten Kerb mitaufbauen willst oder gerne mal wieder ein Bier zapfen möchtest - bei Kahl fetzt. e.V. bist du genau richtig! Schau auf unserer Facebook-Seite oder bei Instagramm vorbei, schreib uns eine E-Mail oder sprich uns einfach an. Wir sind meist an unseren <b>Kahl fetzt.-Shirts</b> deutlich zu erkennen.</p>
+        <p>Lust, Teil unseres Teams zu werden? Egal, ob du bei der nächsten Kerb mitaufbauen willst oder gerne mal wieder ein paar Pommes frittieren möchtest - bei Kahl fetzt. e.V. bist du genau richtig! Schau auf unserer Facebook-Seite oder bei Instagram vorbei, schreib uns eine E-Mail oder sprich uns einfach an. Wir sind meist an unseren <b>Kahl fetzt.-Shirts</b> deutlich zu erkennen.</p>
         <h2>Kahl fetzt. - Gemeinsam unschlagbar</h2>
         <hr />
       <ul className="social-media-contacts">
