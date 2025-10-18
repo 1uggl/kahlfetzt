@@ -28,7 +28,7 @@ jobs:
     - name: Build
       run: npm run build
       env:
-        VITE_BASE_URL: ${{ vars.VITE_BASE_URL }}
+        VITE_BASE_URL: '/kahlfetzt/'
 
     - name: Setup Pages
       uses: actions/configure-pages@v4
